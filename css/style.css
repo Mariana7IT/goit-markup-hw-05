@@ -495,7 +495,7 @@ overflow: hidden;
     flex-shrink: 0;
     display: inline-block;
     margin-bottom: 16px;
-    margin-right: 120px; 
+    
 }
 
 .footer-logo-part{
@@ -575,13 +575,11 @@ overflow: hidden;
     letter-spacing: 0.02em;
     margin-bottom: 16px;
     margin-top: 0;
-    
 }
 
 .contact-form {
     display: flex; 
     gap: 24px;
-
 }
 
 .footer-label {
