@@ -623,8 +623,6 @@ overflow: hidden;
     letter-spacing: 0.04em;
     color: #fff;
     padding: 8px 24px;
-    margin: auto;
-    gap:16px;
     min-width: 165px;
     margin-bottom: 16px;
 }
