@@ -477,10 +477,11 @@ overflow: hidden;
 .footer-container {
     display: flex;
     align-items: baseline;
+    margin: 0 auto;
 }
 
 .footer-container-one {
-    margin-right: 120px;  
+    
 }
 
 .footer-logo {
@@ -511,7 +512,7 @@ overflow: hidden;
 }
 
 .footer-container-two {
-
+    margin-left: 120px;
 }
 
 .footer-text-two {
@@ -558,3 +559,91 @@ overflow: hidden;
 .footer-icon-icon {
     fill: #F4F4FD; 
 }
+
+/* FORM FOOTER */
+
+.footer-container-three {
+    margin-left: 80px;
+}
+
+.footer-text-three {
+    
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    margin-bottom: 16px;
+    margin-top: 0;
+    
+}
+
+.contact-form {
+    display: flex; 
+    gap: 24px;
+
+}
+
+.footer-label {
+    display: flex; 
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+    margin-bottom: 16px;
+}
+
+.footer-input {
+    width: 264px;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid #fff;
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    padding-left: 16px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    margin: 0%;
+}
+
+.footer-btn {
+    min-width: 165px;
+    height: 40px;
+    display:flex;
+    justify-content: center;
+    cursor: pointer;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: #4d5ae5;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    padding: 8px 24px;
+    margin: auto;
+    gap:16px;
+    min-width: 165px;
+    margin-bottom: 16px;
+}
+
+.footer-icon-btn {
+    margin-left: 16px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-input::placeholder {
+    color: #fff;
+}
+
+.footer-btn:hover,
+.footer-btn:focus {
+    background-color: #404bbf;
+}
+
+
