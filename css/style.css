@@ -778,7 +778,7 @@ overflow: hidden;
 }
 
 .form-chek {
-stroke: rgba(46, 47, 66, 0.40);
+
 }
 
 .chek-text {
@@ -810,7 +810,14 @@ stroke: rgba(46, 47, 66, 0.40);
     stroke-width: 1px;
     stroke: rgba(46, 47, 66, 0.40);
     margin-right: 12px;
+    fill: transparent;
 
+}
+
+.form-chek:checked + .chek-text span{
+background-color: #404BBF;
+border: none;
+fill: rgba(244, 244, 253, 1);
 }
 
 .modal-btn {
