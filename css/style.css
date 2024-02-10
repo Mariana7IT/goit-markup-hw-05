@@ -829,11 +829,6 @@ overflow: hidden;
     margin-left: 8px;
 }
 
-.form-chek:checked + .chek-text-part{
-background-color: #404BBF;
-border: none;
-fill: #F4F4FD; 
-}
 
 .modal-field-container {
     margin-bottom: 16px;
@@ -841,6 +836,11 @@ fill: #F4F4FD;
 
 .modal-field-two {
     margin-bottom: 24px; 
+}
+.form-chek:checked + .chek-text-part {
+background-color: #404BBF;
+border: none;
+fill: #F4F4FD; 
 }
 
 .modal-icon-chek{
