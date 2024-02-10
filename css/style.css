@@ -734,7 +734,7 @@ overflow: hidden;
     height: 58px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;  
-    padding-left: 62px;
+    padding-left: 38px;
     transition-duration: 250ms;
     outline: transparent;
 }
@@ -778,7 +778,7 @@ overflow: hidden;
 }
 
 .form-chek {
-
+stroke: rgba(46, 47, 66, 0.40);
 }
 
 .chek-text {
@@ -787,7 +787,10 @@ overflow: hidden;
     font-weight: 400;
     line-height: 1.16;
     letter-spacing: 0.04em;
-    
+    display: flex;
+    align-items: center;
+    stroke-width: 1px;
+    position: relative;
 }
 
 .chek-text a {
@@ -806,7 +809,8 @@ overflow: hidden;
     border-radius: 2px;
     stroke-width: 1px;
     stroke: rgba(46, 47, 66, 0.40);
-    margin-right:12px;
+    margin-right: 12px;
+
 }
 
 .modal-btn {
