@@ -821,16 +821,16 @@ overflow: hidden;
     display: inline-flex; 
     align-items: center;
     justify-content: center; 
-    fill:  #FFF; 
-    background-color: #404BBF;
+   
    
 }
 
 .chek-text-part-two{
     color:  #4d5ae5; 
+    margin-left: 8px;
 }
 
-.form-chek:checked + .chek-text-part{
+.form-chek:checked + .modal-icon-chek{
 background-color: #404BBF;
 border: none;
 fill: #F4F4FD; 
@@ -839,6 +839,13 @@ fill: #F4F4FD;
 .modal-field-two {
     margin-bottom: 24px; 
 }
+
+.modal-icon-chek{
+    fill: #FFF;
+    stroke-width: 1px;
+    stroke: rgba(46, 47, 66, 0.40);
+}
+
 .modal-btn {
     background: #4D5AE5;
     color: #ffffff;
