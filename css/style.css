@@ -846,7 +846,7 @@ overflow: hidden;
     color:  #4d5ae5; 
 }
 
-.form-chek:checked + .chek-text span{
+.form-chek:checked + ..chek-text-part{
 background-color: #404BBF;
 border: none;
 fill: rgba(244, 244, 253, 1);
