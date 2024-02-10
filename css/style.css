@@ -822,6 +822,7 @@ overflow: hidden;
     align-items: center;
     justify-content: center; 
     fill:  #FFF; 
+    background-color: #404BBF;
     margin-left: 8px ;
 }
 
