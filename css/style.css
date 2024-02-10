@@ -826,15 +826,16 @@ overflow: hidden;
 }
 
 .form-chek:checked + .chek-part {
+    background-color: #404BBF;
     border: none;
     fill:  #F4F4FD;
-    background-color: #404BBF;
+    
 }
 
-
 .chek-text-part{
-    color: 
-    margin-left: 8px;
+    color:  #4D5AE5;
+    text-decoration-line: underline;
+   
 }
 
 .modal-field-container {
@@ -848,7 +849,7 @@ overflow: hidden;
 .modal-icon-chek{
     fill: #FFF;
     stroke-width: 1px;
-    stroke: rgba(46, 47, 66, 0.40);
+    
 }
 
 .modal-btn {
