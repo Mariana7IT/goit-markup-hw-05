@@ -812,7 +812,7 @@ overflow: hidden;
     position: relative;
 }
 
-.chek-text-part{
+.chek-text-part {
     display: inline-flex; 
     width: 16px;
     height: 16px;
@@ -835,6 +835,10 @@ overflow: hidden;
 background-color: #404BBF;
 border: none;
 fill: #F4F4FD; 
+}
+
+.modal-field-container {
+    margin-bottom: 16px;
 }
 
 .modal-field-two {
