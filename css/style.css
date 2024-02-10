@@ -821,6 +821,7 @@ overflow: hidden;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     align-items: center;
     justify-content: center; 
+    fill: transparent;
    
    
 }
@@ -830,7 +831,7 @@ overflow: hidden;
     margin-left: 8px;
 }
 
-.form-chek:checked + .modal-icon-chek{
+.form-chek:checked + .chek-text-part{
 background-color: #404BBF;
 border: none;
 fill: #F4F4FD; 
