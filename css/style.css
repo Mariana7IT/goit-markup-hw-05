@@ -792,7 +792,7 @@ overflow: hidden;
 }
 
 .modal-textarea:focus {
-    
+    border-color: #4D5AE5; 
 }
 
 .form-chek {
