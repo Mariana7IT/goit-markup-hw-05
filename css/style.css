@@ -805,7 +805,6 @@ overflow: hidden;
     font-weight: 400;
     line-height: 1.17;
     letter-spacing: 0.04em;
-    display: flex;
     align-items: center;
     stroke-width: 1px;
     position: relative;
