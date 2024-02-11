@@ -828,7 +828,7 @@ overflow: hidden;
 .form-chek:checked + .chek-part {
     background-color: #404BBF;
     border: none;
-    fill:  #F4F4FD;
+    fill: #F4F4FD;
     
 }
 
@@ -848,8 +848,7 @@ overflow: hidden;
 
 .modal-icon-chek{
     fill: #FFF;
-    stroke-width: 1px;
-    
+    stroke: width: 1px;
 }
 
 .modal-btn {
