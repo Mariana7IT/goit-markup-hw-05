@@ -850,7 +850,7 @@ overflow: hidden;
 
 .modal-icon-chek{
     fill: #FFF;
-    stroke: width: 1px;
+    stroke-width: 1px;
 }
 
 .modal-btn {
